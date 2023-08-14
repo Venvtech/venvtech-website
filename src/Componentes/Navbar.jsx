@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+import { FaWhatsapp } from 'react-icons/fa'
 
 const Navbar = () => {
   return (
@@ -14,6 +15,18 @@ const Navbar = () => {
                     <li><a href='#'>Quem Somos</a></li>
                     <li><a href='#'>Contato</a></li>                    
                 </ul>
+            </div>
+
+            <div className='hidden md:flex'>                
+                <a href='https://wa.me/5511920857650?text=Visitei+a+p%C3%A1gina+da+VenvTech+e+gostaria+de+falar+com+um+consultor.' target='_blank' rel='noreferrer'>
+                    <button className='px-8 py-3 rounded md bg-[#20B486] text-white font-bold flex'>
+                        <FaWhatsapp 
+                            size={18}
+                            style={{color:'#fff'}}
+                        /> 
+                        &nbsp;Whatsapp            
+                    </button> 
+                </a>
             </div>
         
         </div>
