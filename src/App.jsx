@@ -1,11 +1,12 @@
 import React from 'react'
-import { Navbar  } from './Componentes' 
+import { Navbar, Cyber  } from './Componentes' 
 import './App.css'
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <Cyber /> 
     </div>
   )
 }
