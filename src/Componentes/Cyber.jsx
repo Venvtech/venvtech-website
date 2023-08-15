@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './Cyber/Hero'
+import { Hero } from './Cyber'
 
 const Cyber = () => {
   return (
